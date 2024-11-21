@@ -1,0 +1,136 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #1c1c1c;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    position: static;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-menu li a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.auth-buttons .btn-login,
+.auth-buttons .btn-register {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: #121212;
+    font-weight: bold;
+}
+
+/* Герой секция */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #282828, #1c1c1c);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #121212;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+
+.btn-secondary {
+    padding: 8px 15px;
+    background-color: #ffcc00;
+    color: #121212;
+    border-radius: 5px;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1c1c1c;
+    color: #888888;
+}
+
+/* Регистрационная страница */
+.registration-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.registration-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.registration-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+.registration-form input:focus {
+    outline: none;
+    border-color: #ffcc00;
+}
+
+.registration-form .btn-primary {
+    margin-top: 10px;
+}
